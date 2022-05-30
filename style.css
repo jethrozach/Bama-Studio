@@ -1,0 +1,155 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+}
+   
+.navbar {
+    background-color:black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+   
+   
+.navbar a{
+    color: white;
+}
+   
+.header-button {
+    position: absolute;
+    float: right;
+    border: 0px;
+    width: 100px;
+    height: 26px;
+    right: 0px;
+    top: 55px;
+    background-color:black;
+    color:white;
+}
+
+.backpack-1{
+    width: 400px;
+    height: auto;
+}
+
+.tulisan{
+    background-color:black;		 
+    width: 600px;				
+    height: 320px;
+    color: white;
+    border-radius: 20px;	
+    padding-left: 12px;
+    position: absolute;
+    top: 630px;
+    right: 60px;
+}
+
+.tasSlider{
+    align-items: center;
+}
+
+.tulisan p, h1{
+    top:0%;
+}
+
+.tas-1, .tas-2, .tas-3{
+ width: 400px;
+ -moz-box-shadow: 10px 10px 5px #ccc;
+  -webkit-box-shadow: 10px 10px 5px #ccc;
+  box-shadow: 10px 10px 5px #ccc;
+}
+
+.content-2{
+    justify-content: space-evenly;
+    display: flex;
+}
+
+.collection-1, .collection-2, .collection-3{
+    color:black;
+    padding: 10px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+    cursor: pointer;
+    font-size: small;
+    border-radius: 10px;
+}
+
+.collection-1, .collection-2, .collection-3 p{
+    font-size: large;
+}
+
+footer{
+    background-color:white;
+    height: auto;
+    width: 100vw;
+    padding-top: 30px;
+    color: white;
+}
+
+   .tas-coming-soon{
+       width: auto; 
+   }
+
+.content-2{
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+   .coming-soon h1{
+       position: absolute;
+       top: 95px;
+       left: 50%;
+       transform: translate(-50%, -50%);
+       color: white;
+       font-size: 50px;
+   }
+
+   .coming-soon h2{
+    position: absolute;
+    bottom: 70px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 55px;
+}
+
+.index_footer h6{
+    font-size: 25px;
+    color: black;
+}
+
+.index_footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0px 0px 8px 0px;
+}
+
+.contact_us {
+    display: block;
+    align-items: center;
+}
+
+    .contact_us a {
+        text-decoration: none;
+    }
+
+    .contact_us a:hover {
+        text-decoration: none;
+    }
+
+    .contact_us a:visited:active {
+        text-decoration: none;
+    }
+
+    .contact_us a:link {
+        text-decoration: none;
+    }
+
+.social_media_icon {
+    height: 50px;
+    width: 50px;
+    margin: 0px 8px 0px 8px;
+}

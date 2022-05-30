@@ -1,0 +1,137 @@
+body, html {
+    height: 100%;
+    margin: 0px;
+   }
+   
+.header {
+    height: 100px;
+    background-color:black;
+    font-family: Arial, Helvetica, sans-serif;
+   }
+   
+   
+.header h2{
+    color: white;
+    display: block;
+    margin-left: 5%;
+    height: 100%;
+    padding-top: 35px;
+    align-items: center;
+   }
+   
+.header-button {
+    position: absolute;
+    float: right;
+    border: 0px;
+    width: 100px;
+    height: 26px;
+    right: 0px;
+    top: 55px;
+    background-color:black;
+    color:white;
+   }
+   
+#register {
+    right: 30px;
+    position: absolute;
+}
+   .heading-1 {
+    text-align: center;
+    padding: 1%;
+}
+   
+.register-form {
+    margin-left: 20%;
+}
+   
+.form-name {
+    text-align: left;
+    font-size: 14px;
+   }
+   
+input[type=text] {
+    width: 70%;
+    border: solid;
+    
+    padding: 6px 10px;
+    margin: 8px 0;
+    box-sizing: border-box;
+   }
+   
+.form-email {
+    text-align: left;
+    font-size: 14px;
+   }
+   
+input[type=email] {
+    width: 70%;
+    border: solid;
+    
+    padding: 6px 10px;
+    margin: 8px 0;
+    box-sizing: border-box;
+
+}
+.form-pass {
+    text-align: left;
+    font-size: 14px;
+}
+   
+input[type=pass] {
+    width: 70%;
+    border: solid;
+   
+    padding: 6px 10px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+   
+.form-gender {
+    text-align: left;
+    font-size: 14px;
+}
+   
+.input-gender {
+    margin: 15px 0px;
+}
+   
+.form-country {
+    text-align: left;
+    font-size: 14px;
+}
+   
+input[type=country] {
+    width: 70%;
+    border: solid;
+    
+    padding: 6px 10px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+
+.form-address {
+    text-align: left;
+    font-size: 14px;
+}
+   
+#input-address {
+    width: 70%;
+    border: solid;
+    padding: 6px 10px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+
+#submit-register-button {
+    margin: 0;
+    border: 0px;
+    position: absolute;
+    top: 115%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    width: 100px;
+    height: 26px;
+    background-color: black;
+    color: white;
+}
